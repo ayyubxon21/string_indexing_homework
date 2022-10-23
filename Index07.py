@@ -6,6 +6,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    
-    return s[n] 
+    if s(n):
+        return s[n]
+    if s[0]:
+        return False 
 print(main("uzbekistan",9))
