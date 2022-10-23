@@ -8,6 +8,6 @@ def main(s,n):
     """
     if len(s)>n:
         return s[n]
-    if len(s)<n:
+    else:
         return False
 print(main("uzbd",3))
