@@ -6,8 +6,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if len(s)>=n:
+    if len(s)>n:
         return s[n]
-    if len(s)<n:
+    if len(s)<=n:
         return False
-print(main("uz",1))
+print(main("uzb",2))
