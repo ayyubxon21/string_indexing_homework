@@ -6,9 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return s[0]
-    return s[1]
-    return s[2]
-    return s[3]
-    return s[4]
-print(main(12345))
+    if "s"!=s:
+        return s
+    else:
+        return -1
+print(main("k"))
