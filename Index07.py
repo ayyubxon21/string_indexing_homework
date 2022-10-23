@@ -8,6 +8,6 @@ def main(s,n):
     """
     if len(s)>=n:
         return s[n]
-    if len(s)<=n:
+    if len(s)<n:
         return False
-print(main("uzbekistan",10))
+print(main("uz",1))
