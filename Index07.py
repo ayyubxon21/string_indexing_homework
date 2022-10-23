@@ -6,8 +6,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if s(n):
+    if len(s)>=n:
         return s[n]
-    if s[0]:
-        return False 
-print(main("uzbekistan",9))
+    if len(s)<=n:
+        return False
+print(main("uzbekistan",10))
