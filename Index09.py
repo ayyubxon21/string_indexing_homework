@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    return s[0]
+    return s[1]
+    return s[2]
+    return s[3]
+    return s[4]
+print(main(12345))
