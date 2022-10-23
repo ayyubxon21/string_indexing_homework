@@ -6,8 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    if "s"!=s:
+    if s[0]:
         return s
     else:
         return -1
-print(main("k"))
+print(main("m"))
